@@ -1,0 +1,89 @@
+@import "/wxSearch/wxSearch.wxss";
+.index{
+    background-color: #FBF9FE;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    flex: 1;
+    min-height: 100%;
+    font-size: 32rpx;
+}
+
+/*.search-bg{
+  background-color: #1296db;
+  height: 80rpx;
+  padding-top: 20rpx;
+}
+.search-btn{
+  background-color: #7dc5eb;
+  color: white;
+  height: 60rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+  font-size: 11pt;
+  text-align: center;
+  line-height: 60rpx;
+}*/
+
+/*head   search*/
+/*.index .search{
+  display: flex;
+  width: 100%;
+  height: 80rpx;
+  padding-top: 0rpx;
+  background: #4bbc93;
+  background-color: #1296db;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+}
+.index .search .search-left{
+  border-radius: 5rpx;
+  background: #7dc5eb;
+  text-align: center;
+  padding: 0rpx;
+  height: 60rpx;
+  width: 80%;
+}
+.index .search .search-left input{
+  display: flex;
+  height: 60rpx;
+  width: 100%;
+  color:white;
+  font-size: 26rpx;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.index .search .search-left .search-placeholder{
+  color: #FFF;
+  font-size: 26rpx;
+  line-height: 60rpx;
+}
+
+.index .search .search-right{
+  background-color: #7dc5eb;
+  height: 60rpx;
+}
+.index .search .search-right image{
+  width: 35rpx;
+  height: 35rpx;
+  padding: 15rpx;
+}*/
+
+.addBtn-bg{
+    align-items: center;
+    background-color: mediumpurple;
+    background: #7dc5eb;
+}
+
+.addBtn{
+    width: 80%;
+    background-color: mediumpurple;
+    background: #1296db;
+    color: white;
+    font-size: 11pt;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    position: fixed;
+    bottom: 0rpx;
+}

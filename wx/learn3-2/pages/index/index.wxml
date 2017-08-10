@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="view1111" bindtap="view1Click">
+view1111
+    <view class="view2" bindtap="view2Click">
+    view222
+        <view class="view3" catchtap="view3Click">
+          view3333
+        </view>
+    </view>
+</view>

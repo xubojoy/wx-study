@@ -1,0 +1,15 @@
+<view class="addcompany-container">
+  <view class="logo-img-bg">
+      <image class="logo_img" src="{{logo}}" mode="aspectFill" catchtap="chooseImageTap"></image>
+  </view>
+  <view class="content-bg">
+      <view class="title-bg">
+        <text class="title-text">公司名称：</text>
+        <input class="title-content" placeholder="请输入公司名称" placeholder-class="number_text_placeholder"/>
+      </view>
+      <view class="code-bg">
+        <text class="code-text">信用代码：</text>
+        <input class="code-content" placeholder="请输入社会信用代码" placeholder-class="number_text_placeholder"/>
+      </view>
+  </view> 
+</view>

@@ -1,0 +1,12 @@
+<view class="container">
+<!--<text class="title_name">公司名称：</text>-->
+   
+  <image class="logo_img" src="{{logo}}" mode="aspectFill" catchtap="chooseImageTap"></image>
+   <text class="title_text">{{name}}</text>
+  <text class="number_name_text">统一社会信用代码：</text>
+   <text class="number_text">{{code}}</text>
+
+
+  <!--<input class="title_text" placeholder="请输入公司名称" placeholder-class="number_text_placeholder"/>-->
+  <!--<input class="number_text" placeholder="请输入社会信用代码" placeholder-class="number_text_placeholder"/>-->
+</view>

@@ -1,0 +1,89 @@
+.addcompany-container{
+  /*FBF9FE*/
+    background-color: #fbf9fe;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    flex: 1;
+    min-height: 100%;
+    font-size: 32rpx;
+}
+
+.logo-img-bg{
+  /*margin-top: 20rpx;*/
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  background-color: #1296db;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo_img{
+  color: rebeccapurple;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100px;
+  background-color: powderblue;
+}
+
+.content-bg{
+  padding-top: 20rpx;
+}
+
+.title-bg{
+  width: 100%;
+  background-color: white;
+  border: 1rpx solid;
+  border-right-color: white;
+  border-left-color: white;
+  border-top-color: white;
+  border-bottom-color: #eeeeee;
+}
+
+.title-text{
+  background-color: white;
+  float: left;
+  margin-left: 15rpx;
+  word-break: break-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  justify-content: space-around;
+  line-height: 100rpx;
+}
+
+.title-content{
+  background-color: white;
+  height: 100rpx;
+  text-align: right;
+  margin-right: 15rpx;
+}
+
+.code-bg{
+  width: 100%;
+  background-color: white;
+  border: 1rpx solid;
+  border-right-color: white;
+  border-left-color: white;
+  border-top-color: white;
+  border-bottom-color: #eeeeee;
+}
+
+.code-text{
+  background-color: white;
+  float: left;
+  word-break: break-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  justify-content: space-around;
+  line-height: 100rpx;
+  /*margin-top: 2rpx;*/
+  margin-left: 15rpx;
+}
+.code-content{
+  background-color: white;
+  height: 100rpx;
+  text-align: right;
+  margin-right: 15rpx;
+  /*margin-top: 1rpx;*/
+}

@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<!--<import src="../../utils/template.wxml"/>-->
+<!--<template is="search"/>-->
+<!--<view class="search-bg">
+    </view> -->
+<import src="/wxSearch/wxSearch.wxml" />
+<view class="wxSearch-section">
+  <view class="wxSearch-pancel">
+    <input bindinput="wxSearchInput" bindfocus="wxSerchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" class="wxSearch-input" placeholder-class="wxSearch-input-placeholder" confirm-type="search" bindconfirm="searchResultClick" placeholder="输入公司名称"
+    />
+    <image class="wxSearch-button" bindtap="wxSearchFn" src="../../images/search.png"></image>
+  </view>
+</view>
+<view class="index">
+  <view class="news">
+    <text class="news-title">公司</text>
+    <block wx:for-items="{{companys}}" wx:key="companysList">
+      <navigator url="/pages/detail/detail?logo={{item.logo}}&name={{item.name}}&code={{item.code}}">
+        <view class="news-item line">
+          <view class="news-item-pic">
+            <image mode="aspectFill" src="{{item.logo}}" class="news-item-image"></image>
+          </view>
+          <view class="news-item-words">
+            <view class="news-item-title">
+              <text>{{item.name}}</text>
+            </view>
+          </view>
+        </view>
+      </navigator>
+    </block>
+  </view>
+  <view class="addBtn-bg">
+    <button class="addBtn" bindtap="addBtnClick">添加公司</button>
+  </view>
+</view>
+<template is="wxSearch" data="{{wxSearchData}}" />

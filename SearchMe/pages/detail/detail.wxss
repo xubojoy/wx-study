@@ -1,0 +1,68 @@
+
+.logo_img{
+  color: rebeccapurple;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100px;
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: powderblue;
+}
+.title_name{
+  color: black;
+  width: 200rpx;
+  height: 20rpx;
+  border-radius: 50px;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 0px;
+  padding-left: 10rpx;
+  text-align: left;
+  background-color: purple;
+}
+.title_text{
+  color: rebeccapurple;
+  width: 700rpx;
+  height: 50rpx;
+  font-size: 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  /*background-color: powderblue;*/
+  text-align: center;
+  
+}
+
+.number_name_text{
+  color: black;
+  width: 400rpx;
+  height: 20rpx;
+  border-radius: 50px;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-left: 0px;
+  padding-left: 10rpx;
+  text-align: center;
+}
+
+.number_text{
+ color: rebeccapurple;
+  width: 700rpx;
+  height: 50rpx;
+  border-radius: 50px;
+  font-size: 30px;
+  margin-top: 20px;
+  /*background-color: powderblue;*/
+  text-align: center;
+}
+
+.number_text_placeholder{
+  color: rebeccapurple;
+  width: 700rpx;
+  height: 50rpx;
+  border-radius: 50px;
+  font-size: 14px;
+  margin-top: 0px;
+  /*background-color: powderblue;*/
+  text-align: center;
+
+}
